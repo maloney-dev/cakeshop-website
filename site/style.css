@@ -1,0 +1,58 @@
+/* .conteudo{
+    border: 1px solid #8b8b8b;
+    padding: 20px 60px;
+    width: 150px;
+    margin: 10px;
+}
+
+.conteudo2{
+    border: 1px solid #8b8b8b;
+    width: 150px;
+    padding: 20px 60px;
+    margin: 50px;
+} */
+
+
+
+ #header{
+    border: 1px solid red;
+    background-color: lightgrey;
+    max-width: 100%;
+    padding: 10px;
+    margin: 0px;
+    clear: left;
+    
+}
+
+#main{
+    border: 1px solid red;
+    background-color: lightgrey; 
+    width: 100%; 
+    height: 800px;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    
+} 
+
+#nav-bar{
+    border: 1px solid red;
+    background-color: lightgrey;
+    width: 100%;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    float: none ;
+    
+} 
+
+.nav{
+    border: 0.1px solid red;
+    padding: 17px 15px;
+    margin: 0px;
+
+}
+.nav:hover{
+    background-color: black;
+}
+
