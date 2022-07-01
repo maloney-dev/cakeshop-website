@@ -1,5 +1,5 @@
  #header{
-    background-color: lightgrey;
+    background-color: hsla(351, 77%, 74%, 1);
     max-width: 100%;
     padding: 10px;
     margin: 0px;
@@ -15,9 +15,9 @@
 
 #main{
     border: 0px;
-    background-color: lightgrey; 
+    background-color: hsla(351, 77%, 74%, 0.8); 
     width: 100%; 
-    height: 800px;
+    max-height: 100%;
     padding: 0px;
     margin: 0px;
     float: left;
@@ -25,27 +25,33 @@
 } 
 
 #nav-bar{
-    background-color: lightgrey;
+    background-color: hsla(351, 77%, 74%, 1);
     width: 100%;
     height: 50px;
     padding: 0px;
     margin: 0px;
-    float: left ;
+    float: left;
     
 } 
 
 .nav{
-    font-family: 'helvetica', Courier, monospace;
+    background-color: hsla(351, 77%, 74%, 1);
+    font-family: 'helvetica', Courier, monospace bold;
+    font-size: 20px;
     border: 0px solid lightgrey;
     padding: 17px 15px;
     margin: 0px;
+    float: none;
 
 }
+
 .nav:hover{
-    background-color: black;
+    pointer: ;
+    background-color: hsla(353, 46%, 62%, 0.5);
 }
 
 a{
+    color: hsla(2, 37%, 29%, 1);
     text-decoration: none;
     flex-direction: center;
 }
@@ -53,7 +59,7 @@ a{
 
 .img-main-page1{
     border: 1px solid black;
-    weight: 300px;
+    max-width: 300px;
     height: 300px;
     padding: 5px 5px;
     margin: 10px 20px;
@@ -62,8 +68,12 @@ a{
 
 .img-main-page2{
     border: 1px solid black;
-    weight: 300px;
+    max-width: 300px;
     height: 300px;
     padding: 5px 5px;
     margin: 10px 20px;
+}
+
+.img-main-page1:hover, .img-main-page2:hover{
+    background-color: rgba(240, 138, 154, 1);
 }
